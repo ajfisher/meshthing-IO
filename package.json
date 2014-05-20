@@ -1,0 +1,30 @@
+{
+  "name": "meshthing-io",
+  "version": "0.0.1",
+  "description": "IO package for Johnny-five for the meshthing device",
+  "main": "lib/meshthing",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ajfisher/meshthing-IO.git"
+  },
+  "keywords": [
+    "io",
+    "firmata",
+    "arduino",
+    "meshthing",
+    "johnny-five"
+  ],
+  "author": {
+    "name": "Andrew Fisher <ajfisher.td@gmail.com>",
+    "email": "ajfisher.td@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajfisher/meshthing-IO/issues"
+  },
+  "homepage": "https://github.com/ajfisher/meshthing-IO",
+  "js-flags": "--harmony"
+}
