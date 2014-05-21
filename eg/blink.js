@@ -1,11 +1,11 @@
-var MT = require("../lib/Meshthing");
+var Meshthing = require("../lib/meshthing");
 var board = new Meshthing({
     host: "mt2",
     port: 4000
 });
 
 board.on("ready", function() {
-    console.log("CONNECTED");
+    console.log("BLINK -> CONNECTED");
 
     var byte = 0;
 
@@ -18,5 +18,5 @@ board.on("ready", function() {
 }); 
 
 board.on("error", function() {
-    console.log("ERROR");
+    console.log("BLINK -> ERROR");
 });

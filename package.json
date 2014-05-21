@@ -26,5 +26,8 @@
     "url": "https://github.com/ajfisher/meshthing-IO/issues"
   },
   "homepage": "https://github.com/ajfisher/meshthing-IO",
-  "js-flags": "--harmony"
+  "js-flags": "--harmony",
+  "dependencies": {
+    "es6-shim": "~0.11.0"
+  }
 }
