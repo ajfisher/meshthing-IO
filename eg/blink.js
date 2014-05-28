@@ -1,11 +1,17 @@
 var Meshthing = require("../lib/meshthing");
+
+console.log("Running blink");
+
+console.log("Firing up the mt");
+
 var board = new Meshthing({
     host: "mt2",
     port: 4000
 });
 
+
 board.on("ready", function() {
-    console.log("BLINK -> CONNECTED");
+    console.log("BLINK -> READY");
 
     var byte = 0;
 
